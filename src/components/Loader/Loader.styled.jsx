@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const WrapperLoader = styled.div`
-    text-align: center;
-    margin-top: 150px;
+export const LoaderWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

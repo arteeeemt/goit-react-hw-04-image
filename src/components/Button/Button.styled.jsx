@@ -1,14 +1,9 @@
 import styled from 'styled-components';
 
-export const WrapperButton = styled.div`
-    text-align: center;
-    margin-bottom: 20px;
-`;
-
-export const ButtonStyle = styled.button`
+export const LoadMore = styled.button`
   padding: 8px 16px;
-  margin-left: auto;
-  border-radius: 2px;
+  margin: 0 20px;
+  border-radius: 5px;
   background-color: #3f51b5;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
@@ -16,7 +11,6 @@ export const ButtonStyle = styled.button`
   color: #fff;
   border: 0;
   text-decoration: none;
-  cursor: pointer;
   font-family: inherit;
   font-size: 18px;
   line-height: 24px;
@@ -25,10 +19,4 @@ export const ButtonStyle = styled.button`
   min-width: 180px;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  &:hover {
-    background-color: #303f9f;
-  }
-  &:focus {
-    background-color: #303f9f;
-  }
 `;

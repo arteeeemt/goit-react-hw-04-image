@@ -1,14 +1,11 @@
-import { ButtonStyle, WrapperButton } from "./Button.styled";
-import PropTypes from 'prop-types'
+import React from 'react';
+import { LoadMore } from './Button.styled';
 
-export const Button = ({ onClickRender }) => (
-    <WrapperButton>
-        <ButtonStyle type="button" onClick={onClickRender}>
-            Load more
-        </ButtonStyle>
-    </WrapperButton>
-);
-
-Button.propTypes = {
-    onClickRender: PropTypes.func.isRequired,
-}
+const Button = ({ onClick }) => {
+  return (
+    <LoadMore type="button" onClick={onClick}>
+      Load more
+    </LoadMore>
+  );
+};
+export default Button;
