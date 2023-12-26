@@ -11,7 +11,7 @@ export const SearchbarStyle = styled.header
   min-height: 64px;
   padding-right: 24px;
   padding-left: 24px;
-  padding-top: 12px;
+  padding-top: 11px;
   padding-bottom: 12px;
   color: #fff;
   background-color: #3f51b5;
